@@ -969,14 +969,26 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     color: #3c4258;
 }
 
-.contact-add-head p {
+.single-contact-add-info p {
+    color: #03346E;
+    margin-top: 18px;
+    width: 100%;
     font-size: 30px;
-    text-transform: capitalize;
-    color: #636a82;
-    font-weight: 300;
-    margin-top: 6px;
 }
-
+.single-contact-add-info a {
+    color: #03346E;
+    margin-top: 18px;
+    width: 100%;
+    font-size: 30px;
+}
+.single-contact-add-info a:hover{
+    color: #FB773C;
+}
+@media only screen and (max-width: 797px) {
+    .single-contact-add-info a {
+    font-size: 15px;
+    }
+}
 /* contact-adress */
 
 /*.contact-add-info */
